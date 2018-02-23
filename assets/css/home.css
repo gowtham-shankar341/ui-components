@@ -1,0 +1,131 @@
+/* line 1, home.scss */
+body {
+  background: #f9f7ff;
+  font-size: 14px;
+  font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
+  background: #232323;
+}
+
+/* line 9, home.scss */
+* {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 17, home.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 21, home.scss */
+li {
+  text-decoration: none;
+}
+
+/* line 24, home.scss */
+.header {
+  display: flex;
+  height: 60px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1500;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-right: 80px;
+}
+/* line 40, home.scss */
+.header .header-nav .header-nav-list {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 10px;
+}
+/* line 46, home.scss */
+.header .header-nav .header-nav-list:hover {
+  color: #909399;
+}
+
+/* line 51, home.scss */
+.main-container {
+  width: 100%;
+  margin-top: 0;
+  height: 100%;
+  position: relative;
+  top: 80px;
+}
+/* line 57, home.scss */
+.main-container .side-nav {
+  width: 200px;
+  height: 100vh;
+  text-align: left;
+}
+/* line 62, home.scss */
+.main-container .white-container {
+  width: calc(96.4% - 200px);
+  background: #fff;
+  display: flex;
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 4px;
+  flex-direction: column;
+  overflow: scroll;
+  z-index: -1;
+}
+
+/* line 74, home.scss */
+.side-nav {
+  float: left;
+  overflow: scroll;
+  margin-bottom: 40px;
+}
+/* line 78, home.scss */
+.side-nav .side-nav-list {
+  margin-left: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  color: #A6A3A3;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+/* line 87, home.scss */
+.side-nav .side-nav-list:hover {
+  color: #909399;
+  text-decoration: underline;
+}
+/* line 92, home.scss */
+.side-nav .side-nav-list-active {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* line 98, home.scss */
+.white-container .elements-heading {
+  color: #1F2F3D;
+  font-size: 16px;
+  display: block;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+/* line 105, home.scss */
+.white-container .elements-description {
+  display: block;
+  text-indent: 20px;
+  color: #5E6D82;
+  font-size: 14px;
+}
